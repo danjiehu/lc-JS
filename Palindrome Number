@@ -1,0 +1,7 @@
+var isPalindrome = function(x) {
+    
+    const yString = x.toString().split("").reverse().join("")
+    const xString = x.toString()
+    return xString === yString ? true : false
+    
+};
